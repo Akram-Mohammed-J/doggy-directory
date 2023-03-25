@@ -25,7 +25,7 @@
       "!src/**/*.d.ts",
       "!src/index.js"
     ],
-    "coverageReporters": ["text-summary"],
+    "coverageReporters": ["text-summary","html"],
     "coverageThreshold": {
         "global": {
             "statements": 85,
