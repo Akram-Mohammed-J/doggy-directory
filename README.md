@@ -1,86 +1,36 @@
-# Doggy Directory
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/Cool-Runningz/doggy-directory">
-    <img src="public/logo192.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <p align="center">
-  <strong>This is a sample app for the DigitalOcean article: "How to Test a React App with Jest and React Testing Library"</strong>
-    <br />
-    <br />
-    <a href="https://doggy-directory-app-6bm2f.ondigitalocean.app/">View Demo 🏗️</a>
-  </p>
-</p>
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Streamlining Your Workflow: A Guide to CI/CD with GitHub Actions and YAML
 
-## Available Scripts
+### .github/workflows/actions.yml
 
-In the project directory, you can run:
+![Screenshot 2023-03-31 at 5 05 01 PM](https://user-images.githubusercontent.com/42640947/229109819-16c01198-b106-4eb6-9cc8-17e6ced638e8.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Coverage report
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot 2023-03-31 at 4 52 03 PM](https://user-images.githubusercontent.com/42640947/229108234-73492c25-b1ae-4f52-ab8f-7e6abada9778.png)
 
-### `npm test`
+![Screenshot 2023-03-31 at 4 51 19 PM](https://user-images.githubusercontent.com/42640947/229108225-66378516-59e7-49cc-a9a0-b92604fdacb6.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Jest Config in package.json
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Screenshot 2023-03-31 at 4 52 43 PM](https://user-images.githubusercontent.com/42640947/229108236-4168a6ca-a5a5-49ca-8005-029ed380d401.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Adding test Scripts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2023-03-31 at 4 53 04 PM](https://user-images.githubusercontent.com/42640947/229108240-f1964de7-f49b-4a74-88b7-ed8b672e57aa.png)
 
-### `npm run eject`
+### Coverage folder/index.html (open it on browser to see the coverage)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot 2023-03-31 at 4 53 29 PM](https://user-images.githubusercontent.com/42640947/229108242-95456aae-17b2-4b5f-acab-c63dc39a0349.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Passed Pipline Example
+![Screenshot 2023-03-31 at 4 54 31 PM](https://user-images.githubusercontent.com/42640947/229108244-696ab2ca-5bc4-4c14-b83f-6722227b99de.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Failed Pipeline Example
+![Screenshot 2023-03-31 at 4 55 15 PM](https://user-images.githubusercontent.com/42640947/229108247-aa6afacb-1666-467d-ac5e-90b9b5ad763e.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
